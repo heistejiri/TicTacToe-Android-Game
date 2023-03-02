@@ -5,30 +5,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#fff0f0"
     tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_tictactoe"
+        android:layout_centerInParent="true">
+
+    </ImageView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TicTacToe"
-        android:textColor="@color/white"
-        android:layout_centerInParent="true"
-        android:textSize="40dp"
-        android:id="@+id/tictactoe"
+        android:text="Tic Tac Toe"
         android:fontFamily="@font/raleway"
-        android:textStyle="bold"/>
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp">
+
+    </TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Designed By Heistejiri"
-        android:textColor="@color/white"
+        android:textColor="#545454"
+        android:fontFamily="@font/playlist"
+        android:textSize="30sp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:layout_centerInParent="true"
-        android:textSize="20dp"
-        android:fontFamily="@font/raleway"
-        android:textStyle="bold"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp">
+
+    </TextView>
 
 </RelativeLayout>
