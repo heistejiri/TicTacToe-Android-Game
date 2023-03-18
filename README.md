@@ -1,4 +1,4 @@
-# Weather-App-Android
+# Tic-Tac-Toe
 ## 📌 Tech Stack
 
 
@@ -12,7 +12,7 @@
   * Android Studio IDE
   * Java Programming Language
   * XML
-  * Google Map API
+
 #### Screenshots :
  
  <img src="/screenshots/Screenshot1.jpg"  height ="650" width="400"/>
